@@ -38,7 +38,7 @@ const config = {
   },
   submenuLinks: [
     {
-      uriPath: 'channels',
+      uriPath: 'update-configuration',
       defaultLabel: 'Algolia Settings',
       labelAllLocales: [],
       permissions: [PERMISSIONS.View],

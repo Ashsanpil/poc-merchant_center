@@ -88,7 +88,7 @@ const UpdateConfiguration: React.FC = () => {
 
   return (
     <Spacings.Stack scale="l">
-      <Text.Headline as="h1">{'ALGOLIA CONFIGURATOR'}</Text.Headline>
+      <Text.Headline as="h1">{'Algolia Configurator'}</Text.Headline>
       <Card theme="dark" type="raised">
         <p>{` Here you can Get the current index settings & also update it by providing a JSON.`}</p>
       </Card>

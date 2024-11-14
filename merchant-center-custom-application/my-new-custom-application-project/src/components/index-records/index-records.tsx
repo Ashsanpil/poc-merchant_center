@@ -127,7 +127,7 @@ const IndexRecords: React.FC = () => {
           />
         </div>
       </Spacings.Stack>
-      <Text.Headline as="h1">{'ALGOLIA CONFIGURATOR'}</Text.Headline>
+      <Text.Headline as="h1">{'Algolia Configurator'}</Text.Headline>
       <Card theme="dark" type="raised">
       <p>{` Welcome to Configurator, here you can get analytics, logs, index records from Algolia. 
             Also, you can update the settings of an index by providing the new settings in a JSON format. `}</p>

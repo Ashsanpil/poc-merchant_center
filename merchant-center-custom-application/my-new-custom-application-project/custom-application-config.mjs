@@ -11,7 +11,7 @@ const config = {
     },
     production: {
       applicationId: 'TODO',
-      url: 'https://your_app_hostname.com',
+      url: 'https://mc-app-alg.vercel.app',
     },
   },
   additionalEnv: {

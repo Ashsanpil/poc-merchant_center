@@ -6,23 +6,23 @@ const config = {
   cloudIdentifier: 'gcp-eu',
   env: {
     development: {
-      initialProjectKey: 'poc-algolia-integration',
+      initialProjectKey: "${env:PROJECT_ID}",
       
     },
     production: {
-      applicationId: 'TODO',
+      applicationId: "${env:APPLICATION_ID}",
       url: 'https://mc-app-alg.vercel.app',
     },
   },
   additionalEnv: {
-    ALGOLIA_APP_ID: "ash",
-    ALGOLIA_WRITE_API_KEY: "ash",
-    ALGOLIA_SEARCH_API_KEY: "ash",
-    ALGOLIA_USAGE_API_KEY: "ash",
+    ALGOLIA_APP_ID: "${env:REACT_APP_ALGOLIA_APP_ID}",
+    ALGOLIA_WRITE_API_KEY: "${env:REACT_APP_ALGOLIA_WRITE_API_KEY}",
+    ALGOLIA_SEARCH_API_KEY: "${env:REACT_APP_ALGOLIA_SEARCH_API_KEY}",
+    ALGOLIA_USAGE_API_KEY: "${env:REACT_APP_ALGOLIA_USAGE_API_KEY}",
   },
   headers: {
         csp: {
-          'connect-src': ["https://ash-dsn.algolia.net","https://analytics.de.algolia.com","https://usage.algolia.com","https://c8-uk-3.algolianet.com"],
+          'connect-src': ["https://${env:REACT_APP_ALGOLIA_APP_ID}-dsn.algolia.net","https://analytics.de.algolia.com","https://usage.algolia.com","https://c8-uk-3.algolianet.com"],
         }
       },
   

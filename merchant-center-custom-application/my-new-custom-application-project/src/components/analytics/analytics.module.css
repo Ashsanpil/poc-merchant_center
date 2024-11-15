@@ -3,3 +3,15 @@
     flex-direction: row;
     gap: 16px;
   }
+
+  .chartRow {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+  }
+  
+  .smallChart {
+    max-width: 300px;
+    max-height: 200px;
+    margin: auto;
+  }
